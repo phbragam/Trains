@@ -82,3 +82,29 @@ void MainWindow::on_pushButton_2_clicked()
     trem4->terminate();
     trem5->terminate();
 }
+
+void MainWindow::on_horizontalSlider_valueChanged(int value)
+{
+
+    trem1->setSpeed(value);
+}
+
+void MainWindow::on_horizontalSlider_2_valueChanged(int value)
+{
+    trem2->setSpeed(value);
+}
+
+void MainWindow::on_horizontalSlider_3_valueChanged(int value)
+{
+    trem3->setSpeed(value);
+}
+
+void MainWindow::on_horizontalSlider_4_valueChanged(int value)
+{
+    trem4->setSpeed(value);
+}
+
+void MainWindow::on_horizontalSlider_5_valueChanged(int value)
+{
+    trem5->setSpeed(value);
+}

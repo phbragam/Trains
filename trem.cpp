@@ -12,7 +12,9 @@ Trem::Trem(int ID, int x, int y){
 //Função a ser executada após executar trem->START
 void Trem::run(){
     while(true){
+        if(velocidade != 200){
         switch(ID){
+
         case 1:     //Trem 1
             if (y == 20 && x <440)
                 x+=10;
@@ -73,6 +75,12 @@ void Trem::run(){
         }
         msleep(velocidade);
     }
+    }
+}
+
+void Trem::setSpeed(int value){
+
+    this->velocidade = 250 - value;
 }
 
 
