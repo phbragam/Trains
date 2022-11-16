@@ -2,6 +2,16 @@
 #define TREM_H
 
 #include <QThread>
+#include <QMutex>
+
+inline QMutex mutex0;
+inline QMutex mutex1;
+inline QMutex mutex2;
+inline QMutex mutex3;
+inline QMutex mutex4;
+inline QMutex mutex5;
+inline QMutex mutex6;
+
 
 /*
  * Classe Trem herda QThread
