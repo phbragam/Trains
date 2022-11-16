@@ -11,10 +11,25 @@ Trem::Trem(int ID, int x, int y){
 }
 
 // variáveis que indicam se o trem está numa possível zona crítica
+
+// trem 1
 bool t1z0 = false;
-bool t2z0 = false;
-bool t5z4 = false;
+bool t1z1 = false;
+bool t1z2 = false;
+// trem 2
 bool t2z4 = false;
+bool t2z3 = false;
+bool t2z0 = false;
+// trem 3
+bool t3z1 = false;
+bool t3z5 = false;
+//trem 4
+bool t4z2 = false;
+bool t4z3 = false;
+bool t4z6 = false;
+// trem 5
+bool t5z4 = false;
+bool t5z6 = false;
 
 //Função a ser executada após executar trem->START
 void Trem::run(){
